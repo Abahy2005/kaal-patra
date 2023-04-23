@@ -1,0 +1,39 @@
+{
+  "name": "kaalpatra",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "yarn build && npx thirdweb@latest upload dist"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.17",
+    "@thirdweb-dev/react": "^3.11.8",
+    "@thirdweb-dev/sdk": "^3.10.11",
+    "@web3-react/core": "^8.2.0",
+    "ethers": "^5.7.2",
+    "ipfs-http-client": "^46.0.0",
+    "react": "^18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.0",
+    "react-icons": "^4.8.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-router": "^6.10.0",
+    "react-router-dom": "^6.10.0",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^9.1.2",
+    "web3": "^1.9.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.1",
+    "vite": "^3",
+    "vite-plugin-node-polyfills": "^0.7.0"
+  }
+}
